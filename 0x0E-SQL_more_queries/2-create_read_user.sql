@@ -1,4 +1,4 @@
---script that creates the database and user
+-- Script that creates an user and a database in MySQL server
 CREATE DATABASE IF NOT EXISTS hbtn_0d_2;
 CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost';
 SET PASSWORD FOR 'user_0d_2'@'localhost' = 'user_0d_2_pwd';
